@@ -3,3 +3,6 @@ insert: insert-sort.c list.h common.h
 
 merge: mergesort.c list.h common.h
 	gcc -o merge mergesort.c
+
+clean:
+	rm -f merge insert
